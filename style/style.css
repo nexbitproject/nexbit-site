@@ -1264,7 +1264,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
     padding: 20px;
     width: auto;
     text-align: center;
-    margin: 10px;
+
 }
 
 .custom-pricing .table-list li {
@@ -1272,13 +1272,13 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
 }
 
 .custom-pricing .table {
-    margin: 0 20px;
+
     border: 0;
 }
 
 .table-responsive {
     overflow: hidden;
-    padding: 10px;
+    box-shadow: rgba(21, 23, 23, 0.1) 0px 0px 50px;
 }
 .pricing-tables img {
     margin-bottom: 15px;
@@ -1452,7 +1452,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
 
 /* dedicated server pricing table */
 .dedicated-pricing {
-    background: #1a1c22;
+    background: #f0f4f4;
 }
 
 .dedicated-pricing .main-title {
@@ -1466,7 +1466,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
 .custab {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
     transition: 0.2s;
-    border-radius: 5px;
+    border-radius: 10px;
     border-top: 7px solid #12bbc1 !important;
     border: 1px solid transparent;
 }
@@ -1483,7 +1483,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
 .table>thead>tr>th {
     border-bottom: 0px;
     padding: 15px 17px 15px 30px;
-    color: #d8d7ec;
+    color: #34343a;
     background: #fbffff;
 }
 
@@ -1492,7 +1492,8 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
     position: relative;
     border-top: 0;
     text-align: left;
-    color: #98a0bb;
+    font-weight: 600;
+    color: #39393c;
 }
 
 .table .btn {
@@ -1513,11 +1514,11 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
 }
 
 .table>tbody>tr>td:first-child {
-    color: #929fc5;
+    color: #39393c;
 }
 
 .table-striped>tbody>tr:nth-of-type(odd) {
-    background: #1a1c22;
+    background: #fbffff;
 }
 
 
@@ -2180,7 +2181,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
 
 /* PAGE HEADERS */
 .default-header {
-    padding: 100px 0;
+    padding: 150px 0;
     background-size: cover !important;
 }
 
@@ -2202,7 +2203,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a:hover {
 }
 
 .default-header.dedicated-page {
-    background: linear-gradient(to right, rgba(22, 21, 37, 0.85) 70%, transparent 100%, transparent 100%), url(../images/headers/dedicated.jpeg) center;
+    background: linear-gradient(to right, rgba(8, 6, 37, 0.62) 20%, transparent 80%, transparent 100%), url(../images/png-images/npool.png) center;
 }
 
 .default-header.about-page {
