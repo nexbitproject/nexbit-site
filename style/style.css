@@ -193,7 +193,6 @@ input::placeholder {
 h2,
 h3 {
     color: #171919;
-    font-family: 'EXO', sans-serif;
     font-weight: 700;
     margin-top: 0;
 }
@@ -643,7 +642,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu>li>a.active {
 }
 
 .navbar-brand>img {
-    width: 240px;
+    width: 200px;
     margin: 10px 0 0;
 }
 
@@ -3237,3 +3236,51 @@ footer .partners {
     padding: 15px 15px;
     text-align: left;
 }
+
+.progress {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #d9dee2;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+
+    transition: width 0.6s ease;
+}
+
+.progress-bar-animated {
+    animation: progress-bar-stripes 1s linear infinite;
+}
+
+.progress-bar-striped {
+    background-image: linear-gradient(45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent);
+    background-size: 1rem 1rem;
+}
+
+.bg-plan {
+    background-color: #199c96 !important;
+}
+
+.bg-develop {
+    background-color: #16858a !important;
+}
+
+.bg-test {
+    background-color: #056e71 !important;
+}
+
+.bg-complete {
+    background-color: #005d61 !important;
+}
+
